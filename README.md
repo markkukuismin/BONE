@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3517785.svg)](https://doi.org/10.5281/zenodo.3517785)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/markkukuismin/BONE)
 ![GitHub](https://img.shields.io/github/license/markkukuismin/BONE)
 
