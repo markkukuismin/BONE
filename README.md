@@ -1,3 +1,4 @@
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/markkukuismin/BONE)
 ![GitHub](https://img.shields.io/github/license/markkukuismin/BONE)
 
 # BONE: Baseline Oriented Network Estimation
