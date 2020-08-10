@@ -27,6 +27,15 @@ library(BONE)
 library(glmnet)
 ```
 
+Alternatively you can use functions of BONE using the source files found in the folder "BONE\R" after you have extracted the "BONE.zip" file:
+
+```r
+source("impute.R")
+source("LASSOSolPath.R")
+source("SolPathInference.R")
+source("WTAInference.R")
+```
+
 BONE depends on the R package "glmnet".
 
 # Example data
