@@ -202,6 +202,6 @@ Probability of the origin and mixture proportion estimates are also saved into a
 
 The BONE method is described in:
 
-Kuismin et al. (in press) "Genetic assignment of individuals to known source populations using network estimation tools". *Methods in Ecology and Evolution*.
+Kuismin, M, Saatoglu, D, Niskanen, AK, Jensen, H, Sillanpää, MJ. Genetic assignment of individuals to source populations using network estimation tools. *Methods in Ecology and Evolution*. 2020, 11, 333–344. https://doi.org/10.1111/2041-210X.13323
 
 File "CodeCollection.zip" is a collection of scripts and data sets used to prepare the material in this paper.
