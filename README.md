@@ -56,7 +56,7 @@ ReferenceData = read.table("ReferenceData.txt",colClasses = Classes,header=T)
 
 This package works initially with RUBIAS (dplyr data frame) file format. Here is an example of four mixture individuals and one locus:
 
-```r
+```
  sample_type repunit collection    indiv V315 V316
      mixture      20       20.1 a353e4fb    4    4
      mixture      20       20.1 5cad80d8    4    2
