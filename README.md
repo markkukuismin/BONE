@@ -97,9 +97,10 @@ For example:
 ```r
 MixtureY = impute(MixtureData, genotyping = "Fluidigm")
 MixtureY = MixtureY$Y
-```
-```
+
 > MixtureY[1:5,1:4]
+```
+```
       a353e4fb 5cad80d8 c0fe50a9 27467dae
 V315         4        4        4        4
 V316         4        2        2        2
@@ -141,9 +142,10 @@ or using the "Winner Takes it All" approach:
 
 ```r
 NetworkResultsWTA = WTAInference(MBapprox,ReferenceData,SampleNames=SampleNames,SampleSizeBaselinePop)
-```
-```
+
 > NetworkResultsWTA$ProbofOrigin[1:5,]
+```
+```
          20 22 23 24 26 27 28 38 77
 a353e4fb  0  0  0  0  1  0  0  0  0
 5cad80d8  1  0  0  0  0  0  0  0  0
@@ -151,8 +153,10 @@ c0fe50a9  0  1  0  0  0  0  0  0  0
 27467dae  0  1  0  0  0  0  0  0  0
 3449e4f9  0  0  0  1  0  0  0  0  0
 ```
-```
+```r
 > round(NetworkResultsSolpath$ProbofOrigin[1:5,],4)
+```
+```
              20     22     23     24     26     27     28     38     77 DifferenceProportion
 a353e4fb 0.0511 0.0125 0.0404 0.0351 0.5490 0.2739 0.0036 0.0006 0.0339               0.0125
 5cad80d8 0.4720 0.0931 0.0240 0.0038 0.1705 0.2072 0.0004 0.0038 0.0252               0.0267
