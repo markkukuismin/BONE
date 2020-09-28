@@ -162,6 +162,8 @@ c0fe50a9 0.0047 0.2933 0.1052 0.1296 0.1225 0.1590 0.0561 0.0014 0.1282         
 ```
 ```r
 > NetworkResultsWTA$MixtureProp
+```
+```
    Pop\tEst.Pi
 20 0.03030303
 22 0.03030303
@@ -172,8 +174,11 @@ c0fe50a9 0.0047 0.2933 0.1052 0.1296 0.1225 0.1590 0.0561 0.0014 0.1282         
 28 0.10101010
 38 0.03030303
 77 0.09595960
-
+```
+```r
 > NetworkResultsSolpath$MixtureProp
+```
+```
    Pop\tEst.Pi
 20 0.02353646
 22 0.02261854
@@ -184,7 +189,6 @@ c0fe50a9 0.0047 0.2933 0.1052 0.1296 0.1225 0.1590 0.0561 0.0014 0.1282         
 28 0.11484434
 38 0.03478313
 77 0.08465427
-
 ```
 "DifferenceProportion" is the MSE between probability of the origin estimated with the solution path method and expected probability of the origin.
 
