@@ -90,7 +90,7 @@ Compute probability of the origin and mixture proportions using the solution pat
  $ V316       : int  4 2 4 2 4 4 4 2 2 2 ...
 ```
 
-Data premodification (compute genotype matrix, impute missing values) are done using the ```r impute ``` function. Run it although you would not need to impute your data. User can also define the genotyping method. If the genotyping method is set as "Fluidigm", the original allele coding is preserved and four "genotypes" are returned (alleles are divided into independent observations at each locus). If missing genotypes are not imputed, missing values are denoted with "18" (Axiom) or "9" (Fluidigm).
+Data premodification (compute genotype matrix, impute missing values) are done using the ``r impute `` function. Run it although you would not need to impute your data. User can also define the genotyping method. If the genotyping method is set as "Fluidigm", the original allele coding is preserved and four "genotypes" are returned (alleles are divided into independent observations at each locus). If missing genotypes are not imputed, missing values are denoted with "18" (Axiom) or "9" (Fluidigm).
 
 For example:
 
